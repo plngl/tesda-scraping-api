@@ -1,0 +1,13 @@
+{
+  "name": "tesda-scraping-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm install express && npm install playwright",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "playwright": "^1.51.1"
+  }
+}
